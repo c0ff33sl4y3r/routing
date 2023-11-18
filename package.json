@@ -9,8 +9,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@stricjs/app": "^1.0.0-alpha",
-    "@stricjs/utils": "^1.6.1"
+    "@stricjs/app": "^1.0.0-alpha.4",
+    "@stricjs/utils": "^2.0.0-alpha"
   },
   "scripts": {
     "start": "bun run index.ts",
