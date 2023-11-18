@@ -1,0 +1,19 @@
+{
+  "name": "routing",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@stricjs/app": "^1.0.0-alpha",
+    "@stricjs/utils": "^1.6.1"
+  },
+  "scripts": {
+    "start": "bun run index.ts",
+    "debug": "bun run --watch index.ts"
+  }
+}
